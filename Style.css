@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(216, 98, 128);
+    width: 100%;
+}
+
+a{
+text-decoration: none;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+header ul li{
+    margin: 10px 100px 10px 0px;
+    width: 100px;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-family: cursive;
+    text-decoration: none;
+}
+
+img{
+    width: 170px;
+}
+
+h1 {
+    font-size: 33px;
+    size: 250;
+    color: rgb(175, 93, 93);    
+}
+
+p{
+    font-size: 25px;
+    color: rgb(49, 48, 48);
+}
+
+.Contenedor{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0 10% 0;
+    width: 100%;
+    background-color: rgb(194, 125, 125);
+    align-items: flex-start;
+  font-family: "Itim", cursive;
+  .row
+  {align-items: flex-start;
+    }
+}
+
+.caja{
+    width: 100%;
+    height: 80%;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-items: flex-start;
+}
+
+.caja{
+    border-radius: 50%;
+}
+
+.definicion{
+  width: 80%;  
+  margin: 5px 150px 5px 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: initial;
+  align-items: center;
+
+
+}
+.nosotros{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.PAQUETES{
+    background-color: rgb(216, 98, 128);
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px 10px 10px;
+    img{
+        width: 400px;
+        border-radius: 50px;
+    }
+}
+.Promociones{
+    background-color: rgb(243, 183, 183);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 70px;
+    align-items: center;
+    margin: 5px 30px 5px 30px;
+}
+footer{
+display: flex;
+flex-direction: row;
+background-color: rgb(243, 154, 206);
+}
+footer li{
+    flex-direction: row;
+}
